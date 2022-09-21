@@ -1,0 +1,23 @@
+.benifit-container{
+height: 100vh;
+color:  #6f1d1b;
+text-align: right;
+    padding-left: 5%;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.benifit-text{
+    text-align: right;
+    padding-left: 5%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.6rem;
+}
+
+.benifit-title{
+    text-decoration: underline;
+    padding-left: 180px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    text-align: center;
+}

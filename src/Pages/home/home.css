@@ -1,0 +1,76 @@
+/* .header{
+color: white;
+font-family: cursive;
+margin: 0%;
+font-size: 4rem;
+background-image:url("https://img.mako.co.il/2022/02/15/shutterstock_1986462353_re_autoOrient_i.jpg") ;
+min-height: fit-content;
+height: 550px !important;
+} */
+
+/* .past-events-cards{
+    background-color: #ece9e6;
+   max-height: fit-content;
+    background: #ece9e6; 
+    background: -webkit-linear-gradient(
+      to right,
+      #ffffff,
+      #ece9e6
+      ); 
+      background: linear-gradient(
+        to right,
+        #ffffff,
+        #ece9e6
+      );
+
+
+      display: flex;
+      flex-direction: column;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(50px, 280px));
+      gap: 0.2rem;
+      margin-left: 4%;
+      max-width: 100%;
+      max-height: 5% !important;
+      box-shadow: black 2px;
+
+
+      background-color: white;
+      margin: 30px;
+      padding: 0px 20px;   
+}
+
+.template-past-evnt{
+    text-align: center;
+    justify-content: center;
+      color: #99582a;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      border:solid #99582a;
+      border-radius: 8px;
+      max-width: 250px;
+      min-width: 250px;
+   }
+
+   .cards-div-past-event{
+    justify-content: center !important;
+    border-radius: 8px;
+    max-height: 330px;
+    max-width: 250px;
+    box-shadow: 0.5px 0.5px 5px 0.5px  #cbcbcb;  
+    background-color: white;
+}
+
+.image-past-events{
+    max-width: 250px;
+    max-height: 155px;
+    min-height: 155px;
+    min-width: 250px;
+    position: relative;
+    right: 3px;
+    bottom: 5px;
+    border-radius: 8px;
+}
+
+.img-div-past-evnt{
+    height: 140px;
+}  */
