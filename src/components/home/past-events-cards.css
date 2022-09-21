@@ -1,0 +1,98 @@
+
+.header{
+    color: white;
+    font-family: cursive;
+    margin: 0%;
+    font-size: 5rem;
+    background-image:url("https://ynet-images1.yit.co.il/picserver5/crop_images/2021/09/11/Bywl5JqMt/Bywl5JqMt_0_0_1015_498_0_x-large.jpg") ;
+    background-repeat: no-repeat;
+    min-height: fit-content;
+    }
+    .header-title{
+        padding-top: 7%;
+        margin-top: 0%;
+        color: #602d09;
+    }
+
+    .wellcome-title{
+        font-family: cursive;
+        font-size: 3rem;
+        color: #6f1d1b;
+    }
+
+    .past-events-title{
+        font-family: cursive;
+        font-size: 2.5rem;
+        color: #99582a;
+    }
+
+    .david-title{
+        color: #602d09;
+    }
+    
+    .past-events-cards{
+        background-color: #ece9e6;
+        max-height: fit-content;
+        background: #ece9e6; 
+        background: -webkit-linear-gradient(
+          to right,
+          #ffffff,
+          #ece9e6
+          ); 
+          background: linear-gradient(
+            to right,
+            #ffffff,
+            #ece9e6
+          );
+    
+    
+          display: flex;
+          flex-direction: column;
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(50px, 280px));
+          gap: 0.2rem;
+          margin-left: 4%;
+          max-width: 100%;
+          max-height: 5% !important;
+          box-shadow: black 2px;
+    
+    
+          background-color: white;
+          margin: 30px;
+          padding: 0px 20px;   
+    }
+    
+    .template-past-evnt{
+        text-align: center;
+        justify-content: center;
+          color: #99582a;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          border:solid #99582a;
+          border-radius: 8px;
+          max-width: 250px;
+          min-width: 250px;
+       }
+    
+       .cards-div-past-event{
+        justify-content: center !important;
+        border-radius: 8px;
+        max-height: 330px;
+        max-width: 250px;
+        box-shadow: 0.5px 0.5px 5px 0.5px  #cbcbcb;  
+        background-color: white;
+    }
+    
+    .image-past-events{
+        max-width: 250px;
+        max-height: 155px;
+        min-height: 155px;
+        min-width: 250px;
+        position: relative;
+        right: 3px;
+        bottom: 5px;
+        border-radius: 8px;
+    }
+    
+    .img-div-past-evnt{
+        height: 140px;
+    }
