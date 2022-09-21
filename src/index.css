@@ -23,6 +23,9 @@ body {
 
 .site-title {
   font-size: 3rem;
+  position: relative;
+  right: 20%;
+
 }
 
 .nav ul {

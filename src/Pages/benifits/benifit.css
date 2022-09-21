@@ -21,3 +21,45 @@ text-align: right;
     font-size: 3rem;
     text-align: center;
 }
+
+.copon-img{
+    height: 150px;
+    width: 600px;
+}
+
+.copon-btn{
+    height: 140px;
+    position: relative;
+    bottom: 70px;
+    background-color: #ae2320d5;
+    border-radius: 6px;
+    color: aliceblue;
+    font-size: 1rem;
+    border: rgba(248, 31, 31, 0.527) solid;
+}
+.copon-btn:hover{
+    background-color: #ae2220a3 ;
+   
+}
+
+@media only screen and (max-width: 770px) {
+    .copon-btn{
+        position: relative;
+        top: 0px;
+        height: 60px;
+        width: 590px;
+    }
+    }
+@media only screen and (max-width: 400px) {
+    .copon-btn{
+        position: relative;
+        top: 0px;
+        height: 60px;
+        width: 350px;
+    
+    }
+
+    .copon-img{
+        width: 350px;
+    }
+}

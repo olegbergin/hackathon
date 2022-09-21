@@ -1,0 +1,102 @@
+.todo-app{
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 43%;
+    border: #c7b294 solid;
+    border-radius: 12px;
+    width: 350px;
+    height: 350px;
+    /* max-height: fit-content !important; */
+    min-height: fit-content !important;
+    background-color: #f4ebce5b;
+  }
+  
+  .chat-input{
+    width: 280px;
+    height: 50px;
+    border-radius: 12px;
+    margin: 0px;
+    border: #e4d6b3 solid;
+    background-color: #f8f2e1;
+    color: #6f1d1b ;
+    position: relative;
+    top: 85px;
+    
+  }
+  
+  
+  .chat-btn{
+    height: 51px;
+    width: 60px;
+    background-color: #6f1d1b;
+    color: white;
+    border-radius: 12px;
+    margin: 0px;
+   border:#f8f2e1 ;
+   position: relative;
+   top: 85px;
+   
+   
+  }
+  .chat-btn:hover{
+    background-color: #6f1c1bdf;
+  
+  }
+  
+  .h3-chat{
+  position: relative;
+  bottom: 20px;
+    
+  }
+  .h3-chat1{
+  
+  }
+  .chat-div{
+    border-radius: 20px;
+    width: 272px;
+    height: 50px;
+    margin: 3px;
+    position: relative;
+    right: 40px;
+    background-color: #f8eac5;
+    color: #6f1d1b ;
+    font-size: 1rem;
+    padding-left: 70px;
+  }
+  .chat-div1{
+    border-radius: 20px;
+    width: 272px;
+    height: 50px;
+    margin: 3px;
+    position: relative;
+    right: 40px;
+    background-color: #f8eac5;
+    color: #6f1d1b ;
+    font-size: 1rem;
+    padding-left: 70px;
+  }
+  
+  
+  .chat-img{
+    width: 45px; 
+    position: relative;
+    bottom: 80px;
+    right: 65px;
+    border-radius: 100px;
+  }
+  .chat-img1{
+    width: 45px; 
+    position: relative;
+    bottom: 80px;
+    right: 65px;
+    border-radius: 100px;
+  }
+  
+  .chat-username{
+    font-size: 1rem;
+    text-decoration: underline;
+  }
+  .chat-username1{
+    font-size: 1rem;
+    text-decoration: underline;
+  }
