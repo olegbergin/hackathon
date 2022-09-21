@@ -4,6 +4,7 @@ import data from './ContactsData.json'
 import { useEffect } from "react";
 import { useLocation } from "react-router";
 import React, {useState} from "react";
+import Fotter from "../../components/fotter";
 
 
 const Contacts = () => {
@@ -51,13 +52,7 @@ const Contacts = () => {
                 }
             </div>
             </div>
-            {/* <div className="archive-fotter">
-                 <p>
-                 <h1 style={{lineHeight: 1.25, fontSize: "65px", paddingTop:"10vh",}} className="footer-top">soccess is not final. failur is not fatal.
-                 <br/>it is the courage to countinue that counts.</h1>
-                 <h3 className="footer-buttom">winston churchill</h3>
-                 </p>
-            </div> */}
+          <Fotter/>
             
           </>
     )
