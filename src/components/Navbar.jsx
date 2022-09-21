@@ -1,6 +1,9 @@
+import { useDispatch } from "react-redux";
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import { logOut } from "../store/userSlice";
 
 export default function Navbar() {
+  const dispatch = useDispatch();
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
@@ -10,6 +13,7 @@ export default function Navbar() {
         <CustomLink to="/Home">דף בית</CustomLink>
         <CustomLink to="/Benifits">הטבות לעובדים</CustomLink>
         <CustomLink to="/Contacts">אנשי קשר</CustomLink>
+        <button key={0} onClick={()=>dispatch( logOut() )}>LogOut</button>
       </ul>
     </nav>
   )
