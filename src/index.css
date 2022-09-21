@@ -52,3 +52,8 @@ body {
 .nav li:hover {
   background-color: #ffe6a77d;
 }
+
+.city-icon{
+  padding-left: 20px !important;
+  
+}

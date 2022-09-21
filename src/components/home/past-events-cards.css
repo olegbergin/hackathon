@@ -4,9 +4,10 @@
     font-family: cursive;
     margin: 0%;
     font-size: 5rem;
-    background-image:url("https://ynet-images1.yit.co.il/picserver5/crop_images/2021/09/11/Bywl5JqMt/Bywl5JqMt_0_0_1015_498_0_x-large.jpg") ;
+    background-image:url("https://ynet-images1.yit.co.il/picserver5/crop_images/2021/09/11/Bywl5JqMt/Bywl5JqMt_0_0_1015_498_0_x-large.jpg");
     background-repeat: no-repeat;
     min-height: fit-content;
+    
     }
     .header-title{
         padding-top: 7%;
