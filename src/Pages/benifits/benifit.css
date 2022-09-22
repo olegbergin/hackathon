@@ -23,7 +23,11 @@ text-align: right;
 }
 
 .copon-img{
-    height: 150px;
+    height: 150px !important;
+    width: 500px;
+}
+.credit-img{
+    height: 180;
     width: 600px;
 }
 

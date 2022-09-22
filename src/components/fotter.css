@@ -4,11 +4,11 @@
      flex-direction: column;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50px, 280px));
-    gap: 1.2rem;
+    
     color: aliceblue !important;
     /* background-color: #6f1d1b; */
     font-size: 1.2rem;
-    height: 350px;
+    height: 380px;
     min-height: fit-content !important;
     background: hsla(25, 57%, 38%, 1);
 
@@ -28,7 +28,9 @@ a {
     color: rgb(252, 228, 182);
     text-decoration: none;
     font-family: cursive;
-    padding-top: 40px;
+    padding-top: 100px;
+    padding-left: 8vw;
+   
   }
 a:hover {
     color: azure;
