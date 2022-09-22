@@ -1,6 +1,6 @@
 import './future-events-cards.css';
 import React from "react";
-import Popup from './popup';
+import Popup from './Popup';
 import Aos from "aos";
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
