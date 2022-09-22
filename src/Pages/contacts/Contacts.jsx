@@ -1,8 +1,6 @@
-import {Link} from "react-router-dom"
+
 import './contacts.css';
 import data from './ContactsData.json'
-import { useEffect } from "react";
-import { useLocation } from "react-router";
 import React, {useState} from "react";
 import Fotter from "../../components/fotter";
 

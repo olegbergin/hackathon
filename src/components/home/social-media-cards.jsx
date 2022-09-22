@@ -16,7 +16,7 @@ const SocialMediaCards= () => {
 <div>
 
         <div className='social-media-title-container'>
-        <p className='future-events-title' dir="rtl">הצטרפו לקבוצות שלנו ברשתות חברתיות:</p>
+        <p className='future-events-title' dir="rtl" data-aos="zoom-in">הצטרפו לקבוצות שלנו ברשתות חברתיות:</p>
         </div>
 
     <div className="social-media-cards" data-aos="fade-up">

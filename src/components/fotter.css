@@ -8,21 +8,27 @@
     color: aliceblue !important;
     /* background-color: #6f1d1b; */
     font-size: 1.2rem;
-    background: hsla(1, 61%, 27%, 1);
+    height: 350px;
+    min-height: fit-content !important;
+    background: hsla(25, 57%, 38%, 1);
 
-background: linear-gradient(90deg, hsla(1, 61%, 27%, 1) 0%, hsla(1, 56%, 45%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(1, 61%, 27%, 1) 0%, hsla(1, 56%, 45%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(1, 61%, 27%, 1) 0%, hsla(1, 56%, 45%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6F1D1B", endColorstr="#B53533", GradientType=1 );
+    background: linear-gradient(90deg, hsla(25, 57%, 38%, 1) 0%, hsla(25, 54%, 65%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(25, 57%, 38%, 1) 0%, hsla(25, 54%, 65%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(25, 57%, 38%, 1) 0%, hsla(25, 54%, 65%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#99582A", endColorstr="#D69E75", GradientType=1 );
+}
+.fotter-container1{
+  
 }
 
 a {
-    color: wheat;
+    color: rgb(252, 228, 182);
     text-decoration: none;
     font-family: cursive;
+    padding-top: 40px;
   }
 a:hover {
     color: azure;
@@ -34,7 +40,10 @@ a:hover {
     justify-content: space-evenly;
     width: 100vw !important;
     padding-bottom: 50px;
-    margin-top: 30px;
+    padding-top: 30px;
+    background-color: #99582a;
+    width: 96.2vw !important;
+   
   }
 
 
@@ -56,5 +65,11 @@ a:hover {
         color: aliceblue !important;
         background-color: #6f1d1b;
         font-size: 1.2rem;
+        height: 700px;
+        width: 360px;
+
     }
+    .fotter-container1{
+      
     }
+  }

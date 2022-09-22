@@ -24,7 +24,7 @@ body {
 .site-title {
   font-size: 3rem;
   position: relative;
-  right: 20%;
+  right: 10%;
 
 }
 
@@ -49,11 +49,33 @@ body {
   background-color: #6f1c1bc0;
 }
 
+
 .nav li:hover {
   background-color: #ffe6a77d;
 }
 
-.city-icon{
-  padding-left: 20px !important;
-  
+.logout-btn{
+  background-color: #99582a;
+  border: #99582a;
+  color: white;
+  font-size: 1rem;
+  font-family: cursive;
 }
+.logout-btn:hover {
+  background-color: #ffe6a77d;
+  text-decoration: underline;
+}
+.logout-btn.active {
+  background-color: #6f1c1bc0;
+}
+
+@media only screen and (max-width: 760px) {
+  .site-title{
+    position: relative;
+    right: 0% !important;
+    font-size: 1.3rem;
+  }
+  .nav{
+    max-height: 65px;
+  }
+  }

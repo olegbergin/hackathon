@@ -18,10 +18,10 @@ const PastEventsCards= () => {
             <h6 dir="rtl" className='david-title' data-aos="zoom-in">דוד בן גוריון</h6>
             </div>
             <div className="wellcome-title-container">
-            <p className='wellcome-title' dir="rtl">ברוכים הבאים לאתר עובדים עריית דימונה!</p>
+            <p className='wellcome-title' dir="rtl" data-aos="zoom-in">ברוכים הבאים לאתר עובדים עריית דימונה!</p>
             </div>
             <div className='past-events-title-container'>
-            <p className='past-events-title' dir="rtl">מאירועי השבוע האחרון שלנו:</p>
+            <p className='past-events-title' dir="rtl" data-aos="zoom-in">מאירועי השבוע האחרון שלנו:</p>
             </div>
             <div className="past-events-cards" data-aos="flip-up">
                 

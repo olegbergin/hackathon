@@ -30,6 +30,7 @@
 
 .overlay {
     background: rgba(49,49,49,0.8);
+    z-index: 999;
 }
 .modal-content {
     position: absolute;
@@ -42,6 +43,7 @@
     border-radius: 3px;
     max-width: 600px;
     min-width: 300px;
+    z-index: 999;
 }
 
 .close-modal {
