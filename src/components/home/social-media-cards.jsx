@@ -7,13 +7,7 @@ import { useSelector } from 'react-redux';
 
 
 
-              </div>
-            </div>
-          )
-        })
-        }
-      </div>
-=======
+
 
 const SocialMediaCards = () => {
   useEffect(() => {

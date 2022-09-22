@@ -10,7 +10,7 @@ import Profile from './Pages/Profile/Profile';
 
 
 
-function App() {
+
 
 
 function App() {
@@ -46,6 +46,6 @@ function App() {
       </>
     );
   }
-
+}
 
 export default App;
