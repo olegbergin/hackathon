@@ -73,6 +73,11 @@
     font-size: 1rem;
     
   }
+
+  .chat-ul{
+    
+  }
+
   .chat-div1{
     border-radius: 20px;
     width: 335px;
@@ -88,10 +93,11 @@
   
   
   .chat-img{
-    width: 45px; 
+    width: 45px;
+    height: 45px; 
     position: relative;
     bottom: 75px;
-    right: 140px;
+    left: 170px;
     border-radius: 100px;
   }
   .chat-img1{
@@ -106,7 +112,7 @@
     font-size: 1rem;
     text-decoration: underline;
     position: relative;
-    right: 40px;
+    left: 100px;
   }
   .chat-username1{
     font-size: 1rem;

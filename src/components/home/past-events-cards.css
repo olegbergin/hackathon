@@ -85,13 +85,13 @@
     }
     
     .image-past-events{
-        max-width: 250px;
+        max-width: 246px;
         max-height: 155px;
         min-height: 155px;
-        min-width: 250px;
+        min-width: 246px;
         position: relative;
-        right: 3px;
-        bottom: 5px;
+        right: 1.5px;
+        bottom: 2px;
         border-radius: 8px;
     }
     

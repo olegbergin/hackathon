@@ -26,41 +26,46 @@ function Chat() {
   return (
 
     <div>
+    
+        <h1 dir="rtl" className='chat-title' data-aos="zoom-in">הודעות:</h1>
+        <div className='todo-app'>
 
-      <h1 dir="rtl" className='chat-title' data-aos="zoom-in">הודעות:</h1>
-      <div className='todo-app'>
-        <ul className='chat-ul'>
-          {name.map((element, index) => (
-            <div className='chat-div1'>
-              <h1 className='chat-username1'></h1>
-              <h3 key={index} className="h3-chat1"> {name[index]} </h3>
-              <img src="" className='chat-img1' alt="" />
-            </div>
-
-          ))}
-          <div className='chat-div'>
-            <h1 className='chat-username'>dan</h1>
-            <h3 className="h3-chat">hello world</h3>
-            <img src="https://st2.depositphotos.com/1104517/11965/v/950/depositphotos_119659092-stock-illustration-male-avatar-profile-picture-vector.jpg" className='chat-img' alt="" />
-          </div>
-
-          <div className='chat-div'>
-            <h1 className='chat-username'>jon</h1>
-            <h3 className="h3-chat">hello world</h3>
-            <img src="https://st2.depositphotos.com/1104517/11965/v/950/depositphotos_119659092-stock-illustration-male-avatar-profile-picture-vector.jpg" className='chat-img' alt="" />
-          </div>
-
-          <div className='chat-div'>
-            <h1 className='chat-username'>ben</h1>
-            <h3 className="h3-chat">hello world</h3>
-            <img src="https://st2.depositphotos.com/1104517/11965/v/950/depositphotos_119659092-stock-illustration-male-avatar-profile-picture-vector.jpg" className='chat-img' alt="" />
-          </div>
-        </ul>
+        <ul className='chat-ul' aria-sort="descending">
+        <li>
+      {name.map((element,index) => (
+      <div className='chat-div'> 
+        <h1 className='chat-username'>בני ביטון</h1>
+        <h3 key={index} className="h3-chat"> {name[index]} </h3>
+        <img src="https://images.globes.co.il/images/NewGlobes/big_image_800/2017/ytry8.jpg" className='chat-img' alt="" />
       </div>
-      <div className='input-container'>
-        <input className='chat-input' type='text' onChange={(e) => setTemp(e.target.value)} />
-        <button onClick={handleSubmit} className="chat-btn">submit</button>
-      </div>
+      ))}
+      </li>
+
+       <li><div className='chat-div'>
+        <h1 className='chat-username'>יפה עזריה</h1>
+          <h3 className="h3-chat" dir='rtl'>מזכירה לכולם שיש יום גיבוש מחר!</h3>
+          <img src="https://i.pinimg.com/736x/16/00/ae/1600aec38572cb9997559e21c5946015.jpg" className='chat-img' alt="" />
+        </div></li>
+
+       <li><div className='chat-div'>
+        <h1 className='chat-username'>שוקי קליין</h1>
+              <h3 className="h3-chat">לא לששכוח למלא את הטפסים</h3>
+          <img src="https://static.generated.photos/vue-static/face-generator/landing/wall/7.jpg" className='chat-img' alt="" />
+        </div>
+        </li> 
+
+        <li><div className='chat-div'>
+        <h1 className='chat-username'>אורלי אוחיון</h1>
+          <h3 className="h3-chat" dir='rtl'>ברוכה הבאה דנה המזכירה החדשה!</h3>
+          <img src="https://i.pinimg.com/736x/6c/27/78/6c27784756bd213664bfd60005f58b8e.jpg" className='chat-img' alt="" />
+        </div>
+        </li>
+     </ul>
+     </div>
+     <div className='input-container'>
+      <input className='chat-input' type='text' onChange={(e)=>setTemp(e.target.value)} />
+     <button onClick={handleSubmit} className="chat-btn">submit</button>
+     </div>
 
     </div>
   );
