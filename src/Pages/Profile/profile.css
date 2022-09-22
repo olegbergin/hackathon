@@ -1,0 +1,60 @@
+.back-img{
+    background-image:url("https://thumbs.dreamstime.com/b/panoramic-autumn-landscape-wooden-path-fall-nature-backgro-sunset-background-97979511.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+.user-img{
+    height: 170px !important;
+    width:  170px;
+    border-radius: 150% !important;
+    position: relative;
+    top: 280px;
+    right: 330px;
+    border: 10px #f8eec4 solid;
+}
+
+.icon-title{
+    color: #99582a;
+}
+.icon-title:hover{
+    color: #99582ab4;
+}
+
+.social-media-profile{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-left: 10vw;
+    margin-right: 5vw !important;
+}
+
+.lower-container{
+    background-color: #f3eae0;
+    height: 500px;
+
+}
+
+.job{
+display: flex;
+justify-content: right;
+margin-bottom: 3vw;
+
+}
+
+.email{
+    display: flex;
+    justify-content: right;
+    
+}
+
+.birthdate{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 3vw;
+}
+
+.h4class{
+    margin-left: 2vw;
+
+}

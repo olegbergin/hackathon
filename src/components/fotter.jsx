@@ -6,11 +6,10 @@ import { FaYoutube } from "react-icons/fa";
 
 function Fotter() {
     return(
+        <div className='fotter-container1'>
         <div className='fotter-container'>
-             <p></p>
-             <p></p>
-             <p></p>
-             <a href="" target='_blank'>לאתר העירייה</a>
+
+             <a href="https://www.dimona.muni.il/" target='_blank'>לאתר העירייה</a>
              <a href="https://www.dimona.muni.il/29/" target='_blank'>דימונה אודות</a>
              <a href="https://www.dimona.muni.il/190/" target='_blank'>מועצת העיר</a>
              <a href="https://www.dimona.muni.il/197/" target='_blank'>דו"ח סיכום פעילות</a>
@@ -22,6 +21,8 @@ function Fotter() {
              <a href="https://www.dimona.muni.il/events/" target='_blank'>לוח אירועים</a>
              <a href="https://www.dimona.muni.il/239/" target='_blank'>פנייה למחלקות עירייה</a>
              <a href="https://www.dimona.muni.il/204/" target='_blank'>שעות קבלה</a>
+        </div>
+
             <div className='social-icons'>
              <FaFacebook/>
              <FaYoutube/>

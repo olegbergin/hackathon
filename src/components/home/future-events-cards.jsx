@@ -17,7 +17,7 @@ const FutureEventsCards= () => {
 <div>
 
         <div className='future-events-title-container'>
-        <p className='future-events-title' dir="rtl">אירועים קרובים:</p>
+        <p className='future-events-title' dir="rtl" data-aos="zoom-in">אירועים קרובים:</p>
         </div>
 
     <div className="past-events-cards" >

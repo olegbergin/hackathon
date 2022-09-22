@@ -7,7 +7,7 @@ export default function Navbar() {
   const dispatch = useDispatch();
   return (
     <nav className="nav">
-      <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Dimona_COA.svg/373px-Dimona_COA.svg.png" alt="" width={50}/></div>
+      <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Dimona_COA.svg/373px-Dimona_COA.svg.png" alt="" width={50}  className="city-icon"/></div>
       <Link to="/" className="site-title">
       עיריית דימונה
       </Link>
@@ -15,7 +15,9 @@ export default function Navbar() {
         <CustomLink to="/Home">דף בית</CustomLink>
         <CustomLink to="/Benifits">הטבות לעובדים</CustomLink>
         <CustomLink to="/Contacts">אנשי קשר</CustomLink>
-        <button key={0} onClick={()=>dispatch( logOut() )}>LogOut</button>
+        <CustomLink to="/Profile">פרופיל</CustomLink>
+        
+        <button key={0} className="logout-btn" onClick={()=>dispatch( logOut() )}>התנתק</button>
       </ul>
     </nav>
   )

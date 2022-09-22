@@ -1,4 +1,3 @@
-import {Link} from "react-router-dom"
 import './benifit.css';
 const Benifits = () => {
     return(

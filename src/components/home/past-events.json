@@ -1,32 +1,72 @@
 [
     {
         "id": 1,
-        "image": "",
+        "image": "https://ihappybirthday.de/wp-content/uploads/2021/06/happy-birthday-candles-picture-id1202880334.jpg",
         "name": "יום הולדת  לנעמה!",
         "description": "יום הולדת לנעמה ממשאבי אנוש",
-        "date": "21.9.22"
+        "link": "21.9.22"
         
     },
     {
         "id": 2,
-        "image": "",
+        "image": "https://thumbs.dreamstime.com/b/volunteer-charity-helping-hands-give-concept-69202170.jpg",
         "name": "יום התנדבות",
         "description": "יום התנדבות עם בעלי מוגבלויות",
-        "date": "23.9.22"
+        "link": "19.9.22"
         
     },
     {
         "id": 3,
-        "image": "",
+        "image": "https://i.ytimg.com/vi/5PkXB8fqDBs/maxresdefault.jpg",
         "name": "יום עיון",
         "description": "יום עיון בנושא זכויות העובד",
-        "date": "20.9.22"
+        "link": "20.9.22"
     },
     {
-        "id": 4,
+        
+        "image":"https://image.shutterstock.com/z/stock-vector-hackathon-concept-with-icon-set-with-big-word-or-text-on-center-2019732209.jpg",
+        "name": "האקטון",
+        "description":"האקטון עם סטודנטים מסייברפרו",
+        "link": "22.9.22"
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+        
         "image":"",
-        "name": "עעעעע",
-        "description": "עעעעעעעע",
-        "date": "20.9.22"
+        "name":"whatsup",
+        "description": "קבוצת הווצאפ של עובדי העירייה",
+        "link": "https://web.whatsapp.com/"
+    },
+    {
+        
+        "image":"",
+        "name": "Facebook",
+        "description": "קבוצת הפייסבוק של עובדי היערייה",
+        "link": "https://he-il.facebook.com/Dimona.Muni/"
+    },
+    {
+        
+        "image":"",
+        "name": "twitter",
+        "description": "עקבו אחר הדף הרשמי של העירייה",
+        "link": "https://twitter.com/i/flow/login"
+    },
+    {
+        
+        "image":"",
+        "name": "instagram",
+        "description": "עקבו אחרי הדף הרשמי של העירייה",
+        "link": "https://www.instagram.com/dimona_muni/"
     }
+
 ]

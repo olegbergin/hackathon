@@ -1,5 +1,9 @@
+
+
 import './contacts.css';
-import React, { useState } from "react";
+import data from './ContactsData.json'
+import React, {useState} from "react";
+
 import Fotter from "../../components/fotter";
 import { useSelector } from 'react-redux';
 

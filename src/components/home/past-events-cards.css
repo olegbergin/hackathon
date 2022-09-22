@@ -4,14 +4,19 @@
     font-family: cursive;
     margin: 0%;
     font-size: 5rem;
-    background-image:url("https://ynet-images1.yit.co.il/picserver5/crop_images/2021/09/11/Bywl5JqMt/Bywl5JqMt_0_0_1015_498_0_x-large.jpg") ;
+    background-image:url("https://img.mako.co.il/2022/02/15/shutterstock_1986462353_re_autoOrient_i.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    min-height: fit-content;
+    height: 70vh;
+   
+
+
+    
     }
     .header-title{
-        padding-top: 7%;
+        padding-top: 9%;
         margin-top: 0%;
-        color: #602d09;
+        color:  #cf6010;
     }
 
     .wellcome-title{
@@ -27,8 +32,9 @@
     }
 
     .david-title{
-        color: #602d09;
+        color:  #cf6010;
     }
+    
     
     .past-events-cards{
         background-color: #ece9e6;
@@ -44,8 +50,6 @@
             #ffffff,
             #ece9e6
           );
-    
-    
           display: flex;
           flex-direction: column;
           display: grid;
@@ -55,8 +59,6 @@
           max-width: 100%;
           max-height: 5% !important;
           box-shadow: black 2px;
-    
-    
           background-color: white;
           margin: 30px;
           padding: 0px 20px;   
