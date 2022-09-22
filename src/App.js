@@ -5,16 +5,33 @@ import LogIn from './Pages/login/Login';
 import Contacts from './Pages/contacts/Contacts';
 import Benifits from './Pages/benifits/Benifits';
 import Navbar from './components/Navbar';
-import { useSelector } from 'react-redux';
+import {  useSelector } from 'react-redux';
 import Profile from './Pages/Profile/Profile';
 
 
 
 
 
-function App() {
+  const role = useSelector((state) => state.role.role);
 
+  
+  
 
+  if (role === "") {
+    return (
+      <>
+        <Navbar />
+        <div className="container">
+          <Routes>
+            <Route path="/" element={<LogIn />} />
+            <Route path="/Home" element={<LogIn />} />
+            <Route path="/Benifits" element={<LogIn />} />
+            <Route path="/Contacts" element={<LogIn />} />
+          </Routes>
+        </div>
+      </>
+    )
+  } else {
     return (
       <>
         <Navbar />
