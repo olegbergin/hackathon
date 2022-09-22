@@ -7,6 +7,13 @@ import { useSelector } from 'react-redux';
 
 
 
+              </div>
+            </div>
+          )
+        })
+        }
+      </div>
+=======
 
 const SocialMediaCards = () => {
   useEffect(() => {
@@ -18,9 +25,9 @@ const SocialMediaCards = () => {
   return (
     <div>
 
-        <div className='social-media-title-container'>
+      <div className='social-media-title-container'>
         <p className='future-events-title' dir="rtl" data-aos="zoom-in">הצטרפו לקבוצות שלנו ברשתות חברתיות:</p>
-        </div>
+      </div>
 
       <div className="social-media-cards" data-aos="fade-up">
         {socials.map(({_id, image, name, description, link}) => {

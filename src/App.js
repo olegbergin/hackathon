@@ -10,13 +10,12 @@ import Profile from './Pages/Profile/Profile';
 
 
 
+function App() {
 
+
+function App() {
 
   const role = useSelector((state) => state.role.role);
-
-  
-  
-
   if (role === "") {
     return (
       <>
