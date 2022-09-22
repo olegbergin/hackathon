@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 
 
 const Contacts = () => {
-  const socials = useSelector((state) => state.social.social);
+  const contacts = useSelector((state) => state.contact.contact);
 
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -25,7 +25,7 @@ const Contacts = () => {
         </div>
         <div className="template_Container">
           {
-            socials.filter((val) => {
+            contacts.filter((val) => {
               if (searchTerm == "") {
                 return val;
               } else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) {
