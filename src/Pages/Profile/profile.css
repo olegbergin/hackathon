@@ -7,6 +7,7 @@
 .user-img{
     height: 170px !important;
     width:  170px;
+    object-fit: cover;
     border-radius: 150% !important;
     position: relative;
     top: 280px;
