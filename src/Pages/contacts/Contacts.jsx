@@ -1,7 +1,7 @@
 import './contacts.css';
 import React, {useState} from "react";
 
-import Fotter from "../../components/fotter";
+import Fotter from "../../components/Fotter";
 import { useSelector } from 'react-redux';
 
 
