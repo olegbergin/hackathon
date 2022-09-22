@@ -14,9 +14,9 @@ const Benifits = () => {
             <p dir="rtl" className="benifit-title">קופונים</p>
             <p dir="rtl" className="benifit-text"> </p>
             <img src="https://cashcow-cdn.azureedge.net/media-gallery/PRRHxLb3V0k=/%D7%A7%D7%95%D7%A4%D7%95%D7%9F-03.png" alt="" className="copon-img"/>
-            <a href="https://www.codecoupon.co.il/" target='_blank'><button className="copon-btn">לקבלת הקופון</button></a>
+            <a href="https://www.codecoupon.co.il/" target='_blank' rel="noreferrer"><button className="copon-btn">לקבלת הקופון</button></a>
             <img src="https://cashcow-cdn.azureedge.net/media-gallery/PRRHxLb3V0k=/copyof_%D7%A7%D7%95%D7%A4%D7%95%D7%9F-02.png" alt="" className="copon-img"/>
-            <a href="https://www.codecoupon.co.il/" target='_blank'><button className="copon-btn">לקבלת הקופון</button></a>
+            <a href="https://www.codecoupon.co.il/" target='_blank' rel="noreferrer"><button className="copon-btn">לקבלת הקופון</button></a>
 
             </div>
 

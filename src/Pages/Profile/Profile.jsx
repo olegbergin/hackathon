@@ -17,8 +17,8 @@ const Profile = () => {
            <h3>ראש עיריית דימונה</h3>
 
            <div className='social-media-profile'>
-            <div><FaFacebookSquare/><a href="https://fo-fo.facebook.com/BenyBiton.D/?ref=py_c" target='_blank' className='icon-title'>BenyBiton</a></div>
-            <div><FaInstagramSquare/><a href="https://www.instagram.com/beni__biton/" target='_blank' className='icon-title'>beni__biton</a></div>
+            <div><FaFacebookSquare/><a href="https://fo-fo.facebook.com/BenyBiton.D/?ref=py_c" target='_blank' rel="noreferrer" className='icon-title'>BenyBiton</a></div>
+            <div><FaInstagramSquare/><a href="https://www.instagram.com/beni__biton/" target='_blank' rel="noreferrer" className='icon-title'>beni__biton</a></div>
             <div><FaPhoneAlt/><a href="" target='_blank' className='icon-title'>08‑6563140</a>	</div>
         
            </div>

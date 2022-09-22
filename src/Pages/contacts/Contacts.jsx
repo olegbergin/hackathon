@@ -1,7 +1,4 @@
-
-
 import './contacts.css';
-import data from './ContactsData.json'
 import React, {useState} from "react";
 
 import Fotter from "../../components/fotter";
