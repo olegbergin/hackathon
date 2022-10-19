@@ -5,6 +5,7 @@ import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import './Popup.css'
 
 const style = {
   position: 'absolute',
@@ -39,11 +40,11 @@ export default function TransitionsModal() {
       >
         <Fade in={open}>
           <Box sx={style}>
-            <Typography id="transition-modal-title" variant="h6" component="h2">
-            לורם איפסום
+            <Typography id="transition-modal-title" variant="h6" component="h2" className="title-popup">
+            יום עיון בנושא זכויות עובד
             </Typography>
-            <Typography id="transition-modal-description" sx={{ mt: 2 }}>
-            לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך רוגצה. לפמעט מוסן מנת. קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום, לפריקך תצטריק לרטי.
+            <Typography id="transition-modal-description" sx={{ mt: 2 }} className="text-popup">
+            בישראל קיימים חוקי מגן, האמורים להבטיח לעובדים זכויות בסיסיות, אולם אכיפתם אינה מספקת. למרות החוק להגברת האכיפה שאימצה הכנסת בשנת 2011, ומאמציו של משרד הכלכלה להגברת האכיפה בשנים האחרונות, המצב עדיין בכי רע, ובפועל מאפשרת המדינה למעסיקים רבים להתחמק ממילוי חובתם למימוש כל זכויות עובדיהם. עובדות ועובדים רבים, גם במגזר הציבורי, מועסקים בתנאים ירודים ובביטחון תעסוקתי נמוך, ומתרחבת תופעת העובדים העניים – אנשים ששכר עבודתם אינו מספיק כדי לאפשר להם ולמשפחתם להתקיים בכבוד.  
             </Typography>
           </Box>
         </Fade>

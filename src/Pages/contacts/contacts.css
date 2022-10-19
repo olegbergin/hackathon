@@ -59,6 +59,8 @@ body{
   justify-content: center;
     color: #99582a !important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative; 
+    bottom: 15px;
  }
  
  .cards-div{
