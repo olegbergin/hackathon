@@ -21,12 +21,13 @@ const Benifits = () => {
             </div>
 
              <p className="benifit-title" dir="rtl">הטבות מיוחדות לעובדי העירייה עם כרטיס האשראי של כאל</p>   
-            <p className="benifit-text" dir="rtl"></p>
+            <p className="benifit-text" dir="rtl">עובדי עיריית דימונה זכאיים להטבות הנחות ומתנות בשימוש בכרטיס אשרי של כאל</p>
 
             <div>
             <p dir="rtl" className="benifit-title"></p>
             <p dir="rtl" className="benifit-text"></p>
-            <img src="https://שירות-לקוחות.org.il/wp-content/uploads/2019/09/%D7%9B%D7%A8%D7%98%D7%99%D7%A1-%D7%90%D7%A9%D7%A8%D7%90%D7%99-%D7%A9%D7%95%D7%A4%D7%A8%D7%A1%D7%9C-300x181.jpg" alt="" className="credit-img"/>
+            
+            <a href='https://www.cal-online.co.il/benefits/iski-benefits/'  target='_blank'> <img src="https://שירות-לקוחות.org.il/wp-content/uploads/2019/09/%D7%9B%D7%A8%D7%98%D7%99%D7%A1-%D7%90%D7%A9%D7%A8%D7%90%D7%99-%D7%A9%D7%95%D7%A4%D7%A8%D7%A1%D7%9C-300x181.jpg" alt="" /></a>
             </div>
         </div>
     )

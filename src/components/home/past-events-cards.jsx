@@ -18,7 +18,7 @@ const PastEventsCards = () => {
     <div>
       <div className="header">
         <p className='header-title' dir="rtl" data-aos="zoom-in">"בנגב ייבחן העם בישראל"</p>
-        <h6 dir="rtl" className='david-title' data-aos="zoom-in">דוד בן גוריון</h6>
+        {/* <h6 dir="rtl" className='david-title' data-aos="zoom-in">דוד בן גוריון</h6> */}
       </div>
       <div className="wellcome-title-container">
         <p className='wellcome-title' dir="rtl">ברוכים הבאים לאתר עובדים עריית דימונה!</p>

@@ -15,7 +15,7 @@ export default function Navbar() {
         <CustomLink to="/Home">דף בית</CustomLink>
         <CustomLink to="/Benifits">הטבות לעובדים</CustomLink>
         <CustomLink to="/Contacts">אנשי קשר</CustomLink>
-        <CustomLink to="/Profile">פרופיל</CustomLink>
+        {/* <CustomLink to="/Profile">פרופיל</CustomLink> */}
         
         <button key={0} className="logout-btn" onClick={()=>dispatch( logOut() )}>התנתק</button>
       </ul>
