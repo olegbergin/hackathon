@@ -16,17 +16,23 @@ This site was built for Dimona municipality employees to allow them better commu
 
 ***
 
+<p align="center"><img src="./ImgsForReadMe/Swiper-screenshot.png" width="300" /></p>
+
 ## Technologies:
 
 ### clinet-side:
 reactJS
+MUI
+React-Hook-Forms
+yupp
 
 
 ### server-side:
 node.js
 express
 mongoDB
+JWT
+Bcrypt
 
 ***
 
-## What's next:
