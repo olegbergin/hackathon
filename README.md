@@ -1,7 +1,6 @@
 # Hackathon project
 ## Site for Dimona city employee workers
-
-This site was built for Dimona municipality employees to allow them better communication between themselves and the municipality
+### This site was built for Dimona municipality employees to allow them better communication between themselves and the municipality
 
 ***
 
@@ -17,23 +16,23 @@ This site was built for Dimona municipality employees to allow them better commu
 
 ***
 
-<p align="center"><img src="./ImgsForReadMe/Swiper-screenshot.png" width="300" /></p>
+<p align="center"><img src="./readme-image.png" width="300" /></p>
 
 ## Technologies:
 
 ### clinet-side:
-reactJS
-MUI
-React-Hook-Forms
-yupp
+* reactJS
+* MUI
+* React-Hook-Forms
+* yupp
 
 
 ### server-side:
-node.js
-express
-mongoDB
-JWT
-Bcrypt
+* node.js
+* express
+* mongoDB
+* JWT
+* Bcrypt
 
 ***
 
