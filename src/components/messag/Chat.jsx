@@ -30,7 +30,7 @@ function Chat() {
         <h1 dir="rtl" className='chat-title' data-aos="zoom-in">הודעות:</h1>
         <div className='todo-app'>
 
-        <ul className='chat-ul' aria-sort="descending">
+        <ul className='chat-ul'>
         <li>
       {name.map((element,index) => (
       <div className='chat-div'> 

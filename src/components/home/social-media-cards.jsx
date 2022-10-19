@@ -34,7 +34,7 @@ const SocialMediaCards = () => {
                 <h3>{name}</h3>
                 <p className="desctiption">{description}</p>
                 {/* <p className="link">{link}</p> */}
-                 <a href={`${link}`} target='_blank'><button className='join-btn'>לחץ כדי להצטרף בקבוצה</button></a>
+                 <a href={`${link}`} target='_blank'  rel="noreferrer" ><button className='join-btn'>לחץ כדי להצטרף בקבוצה</button></a>
 
 
 

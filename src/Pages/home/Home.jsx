@@ -16,7 +16,7 @@ const Home = () => {
             <PastEventsCards />
 
             <FutureEventsCards />
-            {(role=="ADMIN"||role=="SUPERADMIN")? <Chat /> :<div/>}
+            {(role==="ADMIN"||role==="SUPERADMIN")? <Chat /> :<div/>}
 
             <SocialMediaCards />
 

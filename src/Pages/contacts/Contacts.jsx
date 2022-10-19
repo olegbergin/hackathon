@@ -26,11 +26,10 @@ const Contacts = () => {
         <div className="template_Container">
           {
             contacts.filter((val) => {
-              if (searchTerm == "") {
+              if (searchTerm === "" || val.name.toLowerCase().includes(searchTerm.toLowerCase())) {
                 return val;
-              } else if (val.name.toLowerCase().includes(searchTerm.toLowerCase())) {
-                return val;
-              }
+              } else return null;
+               
             })
               .map(({_id, image, name, description, phone, email}) => {
                 return (
