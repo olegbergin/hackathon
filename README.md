@@ -1,4 +1,5 @@
-# hackathon project, worker site for dimona city employee
+# Hackathon project
+## Site for Dimona city employee workers
 
 This site was built for Dimona municipality employees to allow them better communication between themselves and the municipality
 
