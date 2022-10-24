@@ -1,12 +1,12 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Home from './Pages/home/Home';
-import LogIn from './Pages/login/Login';
-import Contacts from './Pages/contacts/Contacts';
-import Benifits from './Pages/benifits/Benifits';
+import Home from './pages/home/Home';
+import LogIn from './pages/login/Login';
+import Contacts from './pages/contacts/Contacts';
+import Benifits from './pages/benifits/Benifits';
 import Navbar from './components/Navbar';
 import {  useSelector } from 'react-redux';
-import Profile from './Pages/Profile/Profile';
+// import Profile from './pages/Profile/Profile';
 
 
 
@@ -41,7 +41,7 @@ function App() {
             <Route path="/Home" element={<Home />} />
             <Route path="/Benifits" element={<Benifits />} />
             <Route path="/Contacts" element={<Contacts />} />
-            <Route path="/Profile" element={<Profile/>} />
+            {/* <Route path="/Profile" element={<Profile/>} /> */}
           </Routes>
         </div>
       </>
