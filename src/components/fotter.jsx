@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
-function Fotter() {
+export default function Fotter() {
     return(
         <div className='fotter-container1'>
         <div className='fotter-container'>
@@ -35,5 +35,3 @@ function Fotter() {
     )
     
 }
-
-export default Fotter;
