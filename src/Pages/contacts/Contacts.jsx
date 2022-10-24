@@ -1,8 +1,8 @@
 import './contacts.css';
 import React, {useState} from "react";
 
-import Fotter from "../../components/Fotter";
 import { useSelector } from 'react-redux';
+import Footer from '../../components/Footer';
 
 
 const Contacts = () => {
@@ -50,7 +50,7 @@ const Contacts = () => {
           }
         </div>
       </div>
-      <Fotter />
+      <Footer />
 
     </>
   )
