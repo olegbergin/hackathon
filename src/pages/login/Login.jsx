@@ -53,7 +53,7 @@ export default function Form() {
         <div className="input-small">
           <div>
             <label>Username</label>
-            <input {...register("username")} />
+            <input {...register("username")} placeholder="user"/>
             {errors?.username && (
               <p>{errors?.username?.message || "Error!"}</p>
             )}
@@ -61,7 +61,7 @@ export default function Form() {
 
           <div>
             <label>Password</label>
-            <input {...register("password")} />
+            <input {...register("password")} placeholder="user"/>
             {errors?.password && <p>{errors?.password?.message || "Error!"}</p>}
           </div>
         </div>
