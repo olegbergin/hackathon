@@ -29,17 +29,17 @@ export default function Form() {
   } = useForm({ mode: "all", resolver: yupResolver(schema) });
 
   const onSubmit = async (data) => {
-    axios.post('http://localhost:5000/auth/login', { "username": data.username, "password": data.password })
+    axios.post('https://dead-blue-macaw.cyclic.app/auth/login', { "username": data.username, "password": data.password })
       .then((res) => {
         dispatch(updateToken(res.data.token))
         var decoded = jwt_decode(res.data.token)
         dispatch(updateRole(decoded.role))
         const token = res.data.token;
-        axios.get('http://localhost:5000/add/events', { headers: { 'Authorization': `Bearer ${token}` } })
+        axios.get('https://dead-blue-macaw.cyclic.app/add/events', { headers: { 'Authorization': `Bearer ${token}` } })
           .then(res => dispatch(updateEvent(res.data)))
-        axios.get('http://localhost:5000/add/social', { headers: { 'Authorization': `Bearer ${token}` } })
+        axios.get('https://dead-blue-macaw.cyclic.app/add/social', { headers: { 'Authorization': `Bearer ${token}` } })
           .then(res => dispatch(updateSocial(res.data)))
-        axios.get('http://localhost:5000/add/contact', { headers: { 'Authorization': `Bearer ${token}` } })
+        axios.get('https://dead-blue-macaw.cyclic.app/add/contact', { headers: { 'Authorization': `Bearer ${token}` } })
           .then(res => dispatch(updateContact(res.data)))
       })
     reset();
