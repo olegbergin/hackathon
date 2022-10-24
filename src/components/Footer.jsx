@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
-export default function Fotter() {
+export default function Footer() {
     return(
         <div className='fotter-container1'>
         <div className='fotter-container'>
